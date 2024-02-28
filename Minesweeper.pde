@@ -51,7 +51,7 @@ public boolean isWon()
 {
     int count = 0;
     for(int i = 0; i < mines.size(); i++){
-      if(mines.get(i).flagged)
+      if(mines.get(i).isFlagged())
         count++;
     }
     if(count == NUM_MINES)
