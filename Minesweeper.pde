@@ -44,7 +44,6 @@ public void draw ()
     background( 0 );
     if(isWon() == true){
         displayWinningMessage();
-        System.out.println("win");
     }
 }
 public boolean isWon()
